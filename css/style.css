@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.hero-image {
+    background-image: url(file:///C:/Users/William%20Judd/Google%20Drive/StoneE.JPG);
+    height: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 4.5em;
+    letter-spacing: -1px;
+    background-color: #616060;
+    color: #c5def5;
+}
+
+h2 {
+    color: #03f15f;
+
+}
+
+#header {
+    justify-content:space-between;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#header img {
+    width: 25%;
+    height: 35%;
+    border-radius: 35px;
+    box-shadow:
+  0 8.6px 56.3px rgba(0, 0, 0, 0.137),
+  0 18.7px 108.6px rgba(0, 0, 0, 0.194),
+  0 35.6px 157.2px rgba(0, 0, 0, 0.228),
+  0 100px 206px rgba(0, 0, 0, 0.29)
+;
+    
+    
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+ .buttons {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.2em solid #07f77f;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bolder;
+    color:#0eec3e;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+ .buttons:hover {
+    color: #033d0b;
+    background-color: #25f30a ;
+}
+
+@media all and (max-width:30em){
+ .buttons{
+    display: block;
+    margin: 0.4em auto;
+ }
+}
+
+.container {
+    margin: 0 auto; 
+    padding: 0 1px;
+}
+  
+.container.centered {
+    width: 90%;
+}
+  
+.row {
+    position: relative; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    align-items: normal; 
+    justify-content: flex-start; 
+    margin-right: 0;
+}
+  
+.column {
+    position: relative; 
+    min-height: 1px; 
+    padding-left: 0; 
+    padding-right: 0; 
+    right: auto; 
+    left: auto; 
+    margin-left: 0;
+}
+
+.column.about-me {
+    width: 100%; 
+    max-width: 100%; 
+    flex: 0 0 100%;
+    height: 100px;
+}
+
+
+
+.column.portfolio {
+    width: 100%; 
+    max-width: 100%; 
+    flex: 0 0 100%;
+    height: 100px;
+}
+
+.column.github {
+    width: 100%; 
+    max-width: 100%; 
+    flex: 0 0 100%;
+    height: 100px;
+}
+
+.column.contact-me {
+    width: 100%; 
+    max-width: 100%; 
+    flex: 0 0 100%;
+    height: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
